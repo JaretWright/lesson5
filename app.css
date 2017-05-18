@@ -1,0 +1,29 @@
+table {
+    border: 5px solid lightblue !important;
+    border-top: 0;
+    padding: 15px;
+}
+caption {
+    border: 5px solid lightblue;
+    background-color: lightblue;
+    padding: 0.5em;
+    color: white;
+    font-size: 1.5em;
+}
+
+.column
+{
+    display: inline-block;
+    margin-left: 23px;
+    vertical-align: top;
+    width: 200px;
+}
+.column + .column{
+    margin-left:25px;
+}
+
+
+body {
+    background-image: url("./images/IMG_5822.jpg");
+    background-size: cover;
+}
